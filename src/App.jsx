@@ -7,13 +7,19 @@ import Navbar from './components/navbar/Navbar'
 
 const App = () => {
   return (
+<<<<<<< HEAD
     <div>
       <Navbar />
       {/* <Page01 /> */}
       {/* <Customer /> */}
+=======
+    <>
+      {/* <Page01 /> */}
+      <Customer />
+>>>>>>> 0eeca31cf21c9b94de9b35e799c9d4251cb19702
       {/* <LoginForm /> */}
       {/* <RegistrationForm /> */}
-    </div>
+    </>
   );
 };
 
