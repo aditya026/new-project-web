@@ -6,12 +6,12 @@ import RegistrationForm from './components/registrationForm/RegistrationForm'
 
 const App = () => {
   return (
-    <div>
-      <Page01 />
-      {/* <Customer /> */}
+    <>
+      {/* <Page01 /> */}
+      <Customer />
       {/* <LoginForm /> */}
       {/* <RegistrationForm /> */}
-    </div>
+    </>
   );
 };
 
