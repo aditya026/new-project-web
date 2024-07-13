@@ -8,6 +8,7 @@ const Customer = () => {
         <div class="row">
           <label for="name">Username</label>
           <input type="text" id="name" name="custname" />
+          <input type="file" id="name" name="image" />
         </div>
         <div class="row">
           <label for="email">Email</label>
