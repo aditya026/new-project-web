@@ -7,7 +7,7 @@ import RegistrationForm from './components/registrationForm/RegistrationForm'
 const App = () => {
   return (
     <div>
-      {/* <Page01 /> */}
+      <Page01 />
       {/* <Customer /> */}
       {/* <LoginForm /> */}
       {/* <RegistrationForm /> */}
