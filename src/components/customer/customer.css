@@ -1,0 +1,110 @@
+.customer {
+    width: 100%;
+    background-color: #f0f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vw 0 4vw;
+    font-size: 1.5vw;
+    position: relative;
+}
+
+.customer h1 {
+    font-size: 1.5em;
+    margin-bottom: 2vw;
+}
+
+.customer form {
+    width: 50%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+}
+
+.customer form .row {
+    width: 100%;
+    position: relative;
+}
+
+.customer form .last-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.customer form .last-row .col {
+    width: 50%;
+    height: 100%;
+    font-size: 1.5vw;
+}
+
+.customer form label,
+.customer form .last-row .col label {
+    display: block;
+    font-size: 0.9em;
+    margin: 0 0 0.4vw 1vw;
+}
+
+.customer form input,
+.customer form select,
+.customer form textarea {
+    width: 100%;
+    height: 3vw;
+    border: none;
+    outline: none;
+    font-size: .8em;
+    padding: 0.2vw 1vw;
+    border-radius: 10px;
+    border: 1px solid rgba(237, 236, 236, 0.4);
+    box-shadow: inset -3px -3px 7px #4945451e, inset 3px 3px 5px #0000002c;
+}
+
+.customer form textarea {
+    height: 5vw;
+    padding: 0.5vw 1vw;
+}
+
+.customer form button {
+    width: 100%;
+    height: 4vw;
+    font-size: 1.3em;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background-color: #0cacfc;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.customer .social {
+    width: 7%;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    position: absolute;
+    right: 8vw;
+    top: 30%;
+}
+
+.customer .social a {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid; */
+    border-radius: 50%;
+    border: 1px solid rgba(237, 236, 236, 0.4);
+    box-shadow: inset -3px -3px 7px #4945451e, inset 3px 3px 5px #0000002c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer .social a img {
+    height: 70%;
+    width: 70%;
+}
